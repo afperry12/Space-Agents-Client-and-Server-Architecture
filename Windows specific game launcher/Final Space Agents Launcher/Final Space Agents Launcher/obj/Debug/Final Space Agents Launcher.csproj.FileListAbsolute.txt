@@ -1,0 +1,32 @@
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\bin\Debug\Final Space Agents Launcher.exe.config
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\bin\Debug\Final Space Agents Launcher.exe
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\bin\Debug\Final Space Agents Launcher.pdb
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher.csproj.AssemblyReference.cache
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Views\Account.baml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\MainWindow.g.cs
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Views\Account.g.cs
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Views\Home.g.cs
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\App.g.cs
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher_MarkupCompile.cache
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher_MarkupCompile.lref
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\App.baml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\MainWindow.baml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Styles\Buttons.baml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Styles\Colors.baml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Styles\Fonts.baml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Styles\Texts.baml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Styles\Windows.baml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Views\Home.baml
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher.g.resources
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final_Space_Agents_Launcher.Properties.Resources.resources
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher.csproj.GenerateResource.cache
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher.csproj.CoreCompileInputs.cache
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher.csproj.Fody.CopyLocal.cache
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher.csproj.CopyComplete
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher.exe
+C:\Users\arthu\source\repos\Final Space Agents Launcher\Final Space Agents Launcher\obj\Debug\Final Space Agents Launcher.pdb

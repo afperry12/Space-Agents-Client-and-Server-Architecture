@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="Final_Space_Agents_Launcher.Views.Profile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:main="clr-namespace:Final_Space_Agents_Launcher"
+             xmlns:iconspack="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d"
+             x:Name="ProfileWindow"
+             Width="Auto"
+             Height="408"
+             d:DesignWidth="1067.675"
+             >
+
+    <Border Padding="{Binding OuterMarginSizeThickness, FallbackValue=10}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="234*"/>
+                <RowDefinition Height="301*"/>
+            </Grid.RowDefinitions>
+
+            <!--Opacity mask for corners on grid-->
+            <Border x:Name="Container" Background="{StaticResource LightAccentBrush}" CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}" Grid.RowSpan="2"/>
+
+            <Border CornerRadius="{Binding WindowCornerRadius}" Background="{Binding MainBackgroundBrush, FallbackValue=#202020}" Grid.RowSpan="2">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="0" Opacity="0.2"/>
+                </Border.Effect>
+            </Border>
+            <Grid Grid.RowSpan="2">
+
+                <!--Corner clipping-->
+                <Grid.OpacityMask>
+                    <VisualBrush Visual="{Binding ElementName=Container}"/>
+                </Grid.OpacityMask>
+
+
+            </Grid>
+
+            <Grid Background="#202020" Grid.RowSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="137*"/>
+                    <ColumnDefinition Width="30"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+            </Grid>
+        </Grid>
+    </Border>
+
+    <!--<Border Padding="{Binding OuterMarginSizeThickness, FallbackValue=10}">
+
+        <Grid>
+
+            <Border x:Name="Container" Background="{StaticResource LightAccentBrush}" CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}" Grid.RowSpan="2"/>
+
+            <Border CornerRadius="{Binding WindowCornerRadius}" Background="{Binding MainBackgroundBrush, FallbackValue=#202020}" Grid.RowSpan="2">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="0" Opacity="0.2"/>
+                </Border.Effect>
+            </Border>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Border CornerRadius="10" Grid.RowSpan="2" Width="400" Height="600" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Border.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#7a00b2" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+
+                <StackPanel VerticalAlignment="Center">
+                    <Image Source="/Images/user-profile.png" Width="80" Height="80"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Orientation="Horizontal">
+                    <iconspack:PackIconBootstrapIcons Kind="PersonFill" VerticalAlignment="Center"/>
+                    <TextBlock FontFamily="Fonts/#Orbitron"
+                               FontWeight="Light"
+                               FontSize="20"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"
+                               Text="Username/Email"
+                               Background="Transparent"
+                               Width="235"
+                               TextAlignment="Right"
+                               Opacity="0.5"
+                               />
+                </StackPanel>
+
+            </Grid>
+        </Grid>
+    </Border>-->
+                
+</UserControl>

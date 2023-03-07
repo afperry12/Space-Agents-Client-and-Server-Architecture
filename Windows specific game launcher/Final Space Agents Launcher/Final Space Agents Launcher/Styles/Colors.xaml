@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Final_Space_Agents_Launcher">
+
+    <Color x:Key="MainBackground">#202020</Color>
+    <SolidColorBrush x:Key="MainBackgroundBrush" Color="{StaticResource MainBackground}"/>
+
+    <Color x:Key="DarkAccent">Black</Color>
+    <SolidColorBrush x:Key="DarkAccentBrush" Color="{StaticResource DarkAccent}"/>
+
+    <Color x:Key="LightAccent">#7a00b2</Color>
+    <SolidColorBrush x:Key="LightAccentBrush" Color="{StaticResource LightAccent}"/>
+    
+    <Color x:Key="BlueAccent">#008ef2</Color>
+    <SolidColorBrush x:Key="BlueAccentBrush" Opacity=".2" Color="{StaticResource BlueAccent}"/>
+
+    <Color x:Key="LightBlueAccent">#00f5ff</Color>
+    <SolidColorBrush x:Key="LightBlueAccentBrush" Opacity=".7" Color="{StaticResource LightBlueAccent}"/>
+
+</ResourceDictionary>

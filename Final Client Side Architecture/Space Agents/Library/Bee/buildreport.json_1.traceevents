@@ -1,0 +1,339 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1678098790686544, "dur": 1409124, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098790687107, "dur": 20837, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098790707947, "dur": 1377970, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098792085921, "dur": 9745, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098792096791, "dur": 33, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678098790840257, "dur":3677, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098790843957, "dur":288, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678098790844308, "dur":44, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678098790844352, "dur":1055, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678098790845504, "dur":1712, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098790847216, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792028492, "dur":467, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792028959, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792028987, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792028996, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029016, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029024, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029042, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029050, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029064, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029072, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029092, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029099, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029119, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029127, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029153, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029160, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029179, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029195, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792029290, "dur":3597, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678098790846143, "dur":1094, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790847247, "dur":11269, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858545, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858553, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858644, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858649, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858685, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858743, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858786, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858836, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858865, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858913, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790858941, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1678098790859003, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790859033, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1678098790859081, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790859491, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098790859535, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790859570, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098790859691, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098790859732, "dur":1168412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678098792028145, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678098792028198, "dur":301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790846168, "dur":1090, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790847259, "dur":11873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859133, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859224, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859259, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859306, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859338, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859381, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859415, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859457, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859492, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859527, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859559, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859602, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859635, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859670, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859705, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859746, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859779, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859821, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859857, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859899, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859930, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790859974, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860003, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860043, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860075, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860112, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860152, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860190, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860220, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860261, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860290, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860326, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860358, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790860975, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861018, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861059, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861091, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861129, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861160, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861198, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861228, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861265, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861297, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861335, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861365, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861401, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861432, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861469, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861498, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861535, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861564, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861607, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861637, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861676, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861706, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/KaymakNetwork.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861752, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098790861783, "dur":1166602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678098792028385, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678098792028440, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1678098792028442, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098790846269, "dur":1009, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098790847279, "dur":11824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098790859104, "dur":1585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098790860689, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098790860723, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098790860792, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098790860826, "dur":285558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678098791146385, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678098791146448, "dur":882078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790846444, "dur":873, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790847318, "dur":11556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790858875, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1678098790858975, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790859031, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790859215, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790859251, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790859303, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790859336, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790859382, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790859413, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860094, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860131, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860180, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860208, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860244, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860270, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860311, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860337, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860633, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860682, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860729, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860760, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860800, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790860831, "dur":134337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678098790995169, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790995221, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1678098790995649, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098790995690, "dur":13459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1678098791009150, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098791009208, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1678098791009278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098791009293, "dur":2850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1678098791012180, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1678098791012225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678098791012236, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1678098791015133, "dur":1013353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790846353, "dur":946, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790847300, "dur":11797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859097, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859579, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859608, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859669, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859707, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859747, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859779, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859828, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859857, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859898, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859929, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790859977, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860005, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860044, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860074, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860113, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860153, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860189, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860221, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860259, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860289, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860326, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860359, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860620, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860657, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860697, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860729, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860766, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098790860796, "dur":246072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678098791106870, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678098791106936, "dur":921553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790846532, "dur":804, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790847336, "dur":11188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790858546, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1678098790858639, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790858679, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1678098790858730, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790858766, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1678098790858815, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790858849, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1678098790858930, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790858970, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1678098790859013, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790859046, "dur":2901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents.exe" }}
+,{ "pid":12345, "tid":6, "ts":1678098790861947, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790861986, "dur":2035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678098790864021, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790864072, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1678098790864153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790865281, "dur":5243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1678098790870586, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1678098790870641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790870655, "dur":124290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1678098790994992, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1678098790995043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098790995057, "dur":9863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1678098791004970, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1678098791005021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098791005035, "dur":6664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1678098791011743, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1678098791011791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098791011804, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1678098791013669, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1678098791014052, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678098791014091, "dur":1014401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790846608, "dur":746, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790847355, "dur":11170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790858546, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1678098790858737, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790858770, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1678098790858822, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790858850, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1678098790858895, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790858924, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1678098790858975, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859015, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859055, "dur":596, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859653, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859727, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859766, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859807, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859840, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859879, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859911, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790859987, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860030, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860072, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860106, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860160, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860192, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860231, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860263, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860320, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860353, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860951, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790860991, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861032, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861062, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861103, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861134, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861171, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861202, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861237, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861267, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861310, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861341, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861382, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861412, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861451, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861482, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861522, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861551, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861587, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861618, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861658, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861692, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861732, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790861763, "dur":1781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098790863544, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098790863601, "dur":190520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678098791054122, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678098791054193, "dur":974301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790846673, "dur":703, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790847376, "dur":11144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790858545, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1678098790858747, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790858788, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1678098790858827, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790858864, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1678098790858904, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790858941, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1678098790858989, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859032, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859157, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859198, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859244, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859271, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859316, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859341, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859388, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859416, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859459, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859492, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859708, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859749, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859792, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859823, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859865, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859906, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859951, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790859983, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860024, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860056, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860095, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860129, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860166, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860197, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860237, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860269, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860305, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860336, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860372, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860658, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860698, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860730, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860786, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098790860816, "dur":666414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Space Agents Map/FullGameDev/1.0/SpaceAgents_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678098791527231, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678098791527303, "dur":501210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678098792037100, "dur":4619, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1678098792096961, "dur": 1798, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678098792096763, "dur": 2080, "ph": "X", "name": "Write chrome-trace events", "args": {} },
